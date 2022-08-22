@@ -1,3 +1,4 @@
+
 let menu = document.querySelector('#menu-btn');
 let navbar = document.querySelector('.header .navbar');
 
@@ -12,7 +13,34 @@ window.onscroll = () =>{
    navbar.classList.remove('active');
 }
 
+         // SWIPER
+var swiper = new Swiper(".home-slider", {
+   loop:true,
+   navigation: {
+      nextel:".swiper-button-next",
+      prevel:".swiper-button-prev",
+   },
+});
 
+
+ // SWIPER responsive
+ var swiper = new Swiper(".reviews-slider", {
+   grabCursor:true,
+   loop:true,
+   autoHeight:true,
+   spaceBetween: 20,
+   breakpoints: {
+      0: {
+        slidesPerView: 1,
+      },
+      700: {
+        slidesPerView: 2,
+      },
+      1000: {
+        slidesPerView: 3,
+      },
+   },
+});
 
 
 // window.onscroll = () =>{

@@ -40,25 +40,25 @@
 <!-- home section start -->
 
 <section class="home">
-   <div class="home-slider">
-      <div class="w">
-         <div class="slide" style="background:url(images/home-slide-1.jpg) no-repeat">
+   <div class="swiper home-slider">
+      <div class="swiper-wrapper">
+         <div class="swiper-slide slide" style="background:url(images/home-slide-1.jpg) no-repeat">
             <div class="content">
-            <span>explore, discover, travel</span>
-            <h3>travel arround the world</h3>
-            <a href="package.php" class="btn">discover more</a>
+               <span>explore, discover, travel</span>
+               <h3>travel arround the world</h3>
+               <a href="package.php" class="btn">discover more</a>
             </div>
          </div>
 
-         <div class="slide" style="background:url(images/home-slide-2.jpg) no-repeat">
+         <div class="swiper-slide slide" style="background:url(images/home-slide-2.jpg) no-repeat">
             <div class="content">
-            <span>explore, discover, travel</span>
-            <h3>discover the new places</h3>
-            <a href="package.php" class="btn">discover more</a>
+               <span>explore, discover, travel</span>
+               <h3>discover the new places</h3>
+               <a href="package.php" class="btn">discover more</a>
             </div>
          </div>
 
-         <div class="slide" style="background:url(images/home-slide-3.jpg) no-repeat">
+         <div class="swiper-slide slide" style="background:url(images/home-slide-3.jpg) no-repeat">
             <div class="content">
             <span>explore, discover, travel</span>
             <h3>make yout ture worthwhile</h3>
@@ -67,6 +67,10 @@
          </div>
 
       </div>
+
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+
    </div>
 </section>
 
@@ -116,7 +120,81 @@
 
 <!-- service section end -->
 
+<!-- home about section start -->
 
+<section class="home-about">
+
+<div class="image">
+   <img src="images/about-img.jpg" alt="">
+</div>
+
+<div class="content">
+   <h3>about us</h3>
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo dolore incidunt perferendis aperiam laborum? Tempora odio sapiente labore incidunt inventore, minima, laudantium assumenda nemo cupiditate ex et blanditiis repellendus enim.</p>
+   <a href="about.php" class="btn">read more</a>
+</div>
+</section>
+
+<!-- home about section end -->
+
+
+<!-- home packages start -->
+
+   <section class="home-packages">
+
+   <h1 class="heading-title">our packages</h1>
+
+   <div class="box-container">
+      <div class="box">
+          <div class="image">
+            <img src="images/img-1.jpg" alt="">
+          </div>
+      <div class="content">
+         <h3>adventure & tour</h3>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, ut.</p>
+         <a href="book.php" class="btn">book new</a>
+      </div>
+      </div>
+
+      <div class="box">
+         <div class="image">
+            <img src="images/img-2.jpg" alt="">
+         </div>
+      <div class="content">
+         <h3>adventure & tour</h3>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, ut.</p>
+         <a href="book.php" class="btn">book new</a>
+      </div>
+      </div>
+
+      <div class="box">
+         <div class="image">
+            <img src="images/img-3.jpg" alt="">
+         </div>
+      <div class="content">
+         <h3>adventure & tour</h3>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, ut.</p>
+         <a href="book.php" class="btn">book new</a>
+      </div>
+      </div>
+   </div>
+
+   <div class="load-more"><a href="package.php" class="btn">load more</a></div>
+   </section>
+
+<!-- home packages end -->
+
+<!-- home offer section start -->
+
+   <section class="home-offer">
+      <div class="content">
+         <h3>upto 50% off</h3>
+         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est exercitationem ad eos laboriosam doloremque officia.</p>
+         <a href="book.php" class="btn">book now</a>
+      </div>
+   </section>
+
+<!-- home offer section end -->
 
 <!-- footer section starts -->
 <section class="footer">
