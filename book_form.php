@@ -1,4 +1,5 @@
 <?php
+  //Fungsi connect() / mysqli_connect() digunakan untuk membuka koneksi baru ke server MySQL.
 
 $connection = mysqli_connect('localhost','root','','book_db');
 
